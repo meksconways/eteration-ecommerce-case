@@ -1,0 +1,16 @@
+<resources>
+    <string name="home_filters_title">Filter</string>
+    <string name="home_sort_title">Sort</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="sort">Sort</string>
+    <string name="old_to_new">Old to new</string>
+    <string name="new_to_old">New to old</string>
+    <string name="price_low_to_high">Price low to high</string>
+    <string name="price_high_to_low">Price high to low</string>
+    <string name="apply">Apply</string>
+    <string name="price">Price</string>
+    <string name="cart_total">Total</string>
+    <string name="complete">Complete</string>
+    <string name="no_product_found">No Product Found</string>
+    <string name="cart_is_empty">Cart is Empty</string>
+</resources>

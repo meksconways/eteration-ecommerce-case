@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="core_ui_app_blue">#2A59FE</color>
+    <color name="core_ui_black">#000000</color>
+    <color name="core_ui_white">#ffffff</color>
+    <color name="core_ui_light_gray">#e8e8e8</color>
+    <color name="core_ui_dark_gray">#909090</color>
+</resources>

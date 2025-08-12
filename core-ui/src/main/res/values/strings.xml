@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_alert_title">Warning</string>
+    <string name="core_alert_button_ok">OK</string>
+    <string name="core_ui_view_search_hint">Search...</string>
+</resources>

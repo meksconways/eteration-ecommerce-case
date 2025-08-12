@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppToolbar">
+        <attr name="at_title" format="string" />
+        <attr name="at_showBack" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.EterationCase" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/app_blue</item>
+        <item name="colorPrimaryDark">@color/app_blue</item>
+        <item name="colorPrimaryVariant">@color/app_blue</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/app_blue</item>
+        <item name="colorSecondaryVariant">@color/app_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="statusBarForeground">@color/app_blue</item>
+        <item name="statusBarBackground">@color/app_blue</item>
+        <!-- Customize your theme here. -->
+        <item name="materialButtonStyle">@style/AppButton</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialog</item>
+    </style>
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RoundedImageView">
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearanceOverlay.RoundedImageView
+        </item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.RoundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="backgroundTint">@color/app_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button.UnelevatedButton
+        </item>
+
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxBackgroundColor">@android:color/white</item>
+    </style>
+
+
+    <style name="AppBottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppBottomSheet</item>
+        <item name="materialButtonStyle">@style/AppButton</item>
+    </style>
+
+    <style name="AppBottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/AppShapeAppearanceBottomSheetDialog</item>
+
+    </style>
+
+    <style name="AppShapeAppearanceBottomSheetDialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+
+</resources>
